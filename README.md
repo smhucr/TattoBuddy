@@ -1,5 +1,5 @@
 # Tatto Buddy GAME DESIGN DOCUMENT (Oyun Tasarım Belgesi)
-##1. Oyun İsmi
+## 1. Oyun İsmi
 **Oyun Adı:** Tattoo Buddy
 
 ## 2. Oyun Tanımı
