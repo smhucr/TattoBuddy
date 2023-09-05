@@ -1,4 +1,4 @@
-# Tatto Buddy GAME DESIGN DOCUMENT (Oyun Tasarım Belgesi)
+# Tattoo Buddy GAME DESIGN DOCUMENT (Oyun Tasarım Belgesi)
 ## 1. Oyun İsmi
 **Oyun Adı:** Tattoo Buddy
 
@@ -18,7 +18,11 @@
 
 ## 4. Karakterler ve Dünya
 **Ana Karakter:** Oyuncunun kontrol ettiği karakter, hayatta kalmak için mücadele eder. Karakterin hareket yetenekleri vardır, ancak başlangıçta zayıf silahlara sahiptir.
-
+ ### Karakterler
+    -King Tattoo
+    -Lion Tattoo
+    -Flower Tatto
+    -Figure Tattoo
 **Düşman Canavarlar:** Oyuncunun karşısına rastgele yerlerde spawn olan canavarlar çıkar. Canavarlar farklı türlerde ve yeteneklere sahip olabilirler.
 
 **Oyun Dünyası:** Oyun, bir açık dünya ortamında geçer. Oyuncu, bu dünyada canavarlarla savaşırken çeşitli bölgeleri keşfeder.
