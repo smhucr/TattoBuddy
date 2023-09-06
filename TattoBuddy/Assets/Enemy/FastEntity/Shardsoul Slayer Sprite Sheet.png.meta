@@ -1,0 +1,851 @@
+fileFormatVersion: 2
+guid: 2efa86ecbbaa65d44a320bd23309be8c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 256
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ac62525aa4fdb42b6fc3303c6e3687
+      internalID: -1219158739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 256
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a85c4b236a02e48b5dc78986a71968
+      internalID: 760633810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 256
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad04ee6d63e02c4b9b73a834a2385d7
+      internalID: 1743207167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 256
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf3bbe7515ace249875bdf79f3e342e
+      internalID: 885848861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 256
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee357b946231524d876cecb683ee3ff
+      internalID: -396114916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 256
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ffee98c43a9ea418a7f4256f79e927
+      internalID: -87922590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 256
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda5b9eaef50b344abeb9cc80a869e6e
+      internalID: 822529392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 256
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8903b82147398e44a889854bf42f3a53
+      internalID: 1483662737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 192
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158d1026e05bacd4798616bff4523249
+      internalID: -873249105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 193
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5e53ea56ca8ce4b8c652e4572bf41b
+      internalID: 1297734058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 194
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca11c795e3b88448a93d22ae4d30596
+      internalID: 1542248989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8769c7a3bcd3f44d8c282ba6132a294
+      internalID: -13231542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 192
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c662379de5637a84baa70da2c183c1a8
+      internalID: -1891819711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 196
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f62b1ab460ed848832e960332a0bbe
+      internalID: -1537735677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 199
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d896be880e6e1ec4d85cb058ccddfbf8
+      internalID: -398558828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 196
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c49289f9450cd4a8fdbccf46f1ea47
+      internalID: -307136203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 128
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ea27b88aada5647a69664242588d78
+      internalID: 1619987563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 128
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287ecd0fb50d08c4dbefdac5db74518c
+      internalID: 2100401805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 128
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dde7ec8089888b4da35c4fefa36e6c6
+      internalID: 154610718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 128
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89ff835fe3236147aae7ebd745a0136
+      internalID: 605153783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 128
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b3319a97da08942a0461c381d04fa5
+      internalID: 290986594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 64
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d2b8b85bb3ff14cb08f41339e11f8c
+      internalID: 182613471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 64
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e338f630c32877d42bebce55d5ae414d
+      internalID: 851225661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 64
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f8a435db043774087bebc86ad5ea47
+      internalID: -642817529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 64
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cf6ff2c37e60c4abd25938a731237b
+      internalID: 920475171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea59bdb48118d564f8817c5433c90a4c
+      internalID: -116369386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2092dec28d0d204fa7370e6d7c656cc
+      internalID: -2094836195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a5c8f23802eb841b4d27a640832cb7
+      internalID: 915428158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949d3d60bdf83d540b758dd450af56e9
+      internalID: -980470677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fb8eea3c6cf014ea1aa1f6130916a3
+      internalID: 1853463550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3081c56c98dbd14d8c93240a4227cca
+      internalID: -1069974891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shardsoul Slayer Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 53
+        width: 3
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ae485f6d2978f4caca839423183136
+      internalID: -105914474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Shardsoul Slayer Sprite Sheet_0: -1219158739
+      Shardsoul Slayer Sprite Sheet_1: 760633810
+      Shardsoul Slayer Sprite Sheet_10: 1542248989
+      Shardsoul Slayer Sprite Sheet_11: -13231542
+      Shardsoul Slayer Sprite Sheet_12: -1891819711
+      Shardsoul Slayer Sprite Sheet_13: -1537735677
+      Shardsoul Slayer Sprite Sheet_14: -398558828
+      Shardsoul Slayer Sprite Sheet_15: -307136203
+      Shardsoul Slayer Sprite Sheet_16: 1619987563
+      Shardsoul Slayer Sprite Sheet_17: 2100401805
+      Shardsoul Slayer Sprite Sheet_18: 154610718
+      Shardsoul Slayer Sprite Sheet_19: 605153783
+      Shardsoul Slayer Sprite Sheet_2: 1743207167
+      Shardsoul Slayer Sprite Sheet_20: 290986594
+      Shardsoul Slayer Sprite Sheet_21: 182613471
+      Shardsoul Slayer Sprite Sheet_22: 851225661
+      Shardsoul Slayer Sprite Sheet_23: -642817529
+      Shardsoul Slayer Sprite Sheet_24: 920475171
+      Shardsoul Slayer Sprite Sheet_25: -116369386
+      Shardsoul Slayer Sprite Sheet_26: -2094836195
+      Shardsoul Slayer Sprite Sheet_27: 915428158
+      Shardsoul Slayer Sprite Sheet_28: -980470677
+      Shardsoul Slayer Sprite Sheet_29: 1853463550
+      Shardsoul Slayer Sprite Sheet_3: 885848861
+      Shardsoul Slayer Sprite Sheet_30: -1069974891
+      Shardsoul Slayer Sprite Sheet_31: -105914474
+      Shardsoul Slayer Sprite Sheet_4: -396114916
+      Shardsoul Slayer Sprite Sheet_5: -87922590
+      Shardsoul Slayer Sprite Sheet_6: 822529392
+      Shardsoul Slayer Sprite Sheet_7: 1483662737
+      Shardsoul Slayer Sprite Sheet_8: -873249105
+      Shardsoul Slayer Sprite Sheet_9: 1297734058
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
