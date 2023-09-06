@@ -24,7 +24,13 @@
     -Flower Tatto
     -Figure Tattoo
  Özellikleri: Can, Hız, Zırh, Sağlık Yenileme, Hasar Çarpanı, Kaçınma
+ 
 **Düşman Canavarlar:** Oyuncunun karşısına rastgele yerlerde spawn olan canavarlar çıkar. Canavarlar farklı türlerde ve yeteneklere sahip olabilirler.
+ ### Düşmanlar
+     -Yakıncıl Hızlı Canavar
+     -Yakıncıl Orta Hız Tank Canavar
+     -Uzakçıl Orta Hız Kırılgan Canavar
+Özellikleri: Can, Hız, Zırh, Hasar Çarpanı
 
 **Oyun Dünyası:** Oyun, bir açık dünya ortamında geçer. Oyuncu, bu dünyada canavarlarla savaşırken çeşitli bölgeleri keşfeder.
 
