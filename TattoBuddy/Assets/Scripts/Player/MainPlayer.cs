@@ -6,17 +6,17 @@ public abstract class MainPlayer : MonoBehaviour
 {
     [Header("CharacterFeatures")]
     [SerializeField]
-    protected float health;
+    public float health;
     [SerializeField]
-    protected float moveSpeed;
+    public float moveSpeed;
     [SerializeField]
-    protected int shield;
+    public int shield;
     [SerializeField]
-    protected int healthRegenerate;
+    public int healthRegenerate;
     [SerializeField]
-    protected int damageMultiplier;
+    public int damageMultiplier;
     [SerializeField]
-    protected int dodgeRate;
+    public int dodgeRate;
     
 
 

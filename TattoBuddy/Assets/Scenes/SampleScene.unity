@@ -586,12 +586,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88900aa983ce9ee44b0975ac7774860f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   health: 50
   moveSpeed: 0.4
   shield: 50
-  damageMultiplier: 50
+  damageValue: 0
   follow_distance: 0.2
-  attackTime: 0
+  attackTime: 2
+  isAttackable: 0
+  animator: {fileID: 0}
 --- !u!95 &540566335
 Animator:
   serializedVersion: 5
@@ -711,12 +714,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f090e56481fc71140ae8403e9a1ac7b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   health: 5
   moveSpeed: 0.7
   shield: 1
-  damageMultiplier: 10
+  damageValue: 0
   follow_distance: 1.3
   attackTime: 3
+  isAttackable: 0
+  animator: {fileID: 0}
 --- !u!95 &588541334
 Animator:
   serializedVersion: 5
@@ -16510,12 +16516,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a4acc6179c41854987ff4b8c590ebdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   health: 10
   moveSpeed: 0.8
   shield: 3
-  damageMultiplier: 5
+  damageValue: 0
   follow_distance: 0.3
   attackTime: 1
+  isAttackable: 0
+  animator: {fileID: 0}
 --- !u!95 &1606702243
 Animator:
   serializedVersion: 5

@@ -6,28 +6,31 @@ public abstract class MainEnemy : MonoBehaviour
 {
 
     [Header("MainPlayer")]
-    protected Transform player;
+    public Transform player;
     [Header("EnemyFeatures")]
     [SerializeField]
-    protected float health;
+    public float health;
     [SerializeField]
-    protected float moveSpeed;
+    public float moveSpeed;
     [SerializeField]
-    protected int shield;
+    public int shield;
     [SerializeField]
-    protected int damageMultiplier;
+    public int damageValue;
     [SerializeField]
-    protected float follow_distance;
+    public float follow_distance;
     [SerializeField]
-    protected float attackTime;
+    public float attackTime;
+    [SerializeField]
+    public bool isAttackable;
     [Header("EnemyComponent")]
     [SerializeField]
-    protected Animator animator;
+    public Animator animator;
 
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         animator = GetComponent<Animator>();
+        isAttackable = true;
     }
     public void Move()
     {
@@ -35,12 +38,15 @@ public abstract class MainEnemy : MonoBehaviour
         if (Vector3.Distance(transform.position, player.position) >= follow_distance)
         {
             transform.position = Vector3.MoveTowards(transform.position, player.position, Time.deltaTime * moveSpeed);
-            animator.SetBool("isWalking", true);
-            animator.SetBool("isAttack", false);
+            SetWalking();
         }
         else
         {
-            Attack();
+            if (isAttackable)
+                Attack();
+            else
+                SetIdle();
+
         }
     }
     private void EnemyToPlayerDirection()
@@ -60,5 +66,24 @@ public abstract class MainEnemy : MonoBehaviour
     public /*abstract*/ void TakeDamage(int damageAmount)
     {
 
+    }
+
+    public void SetIdle()
+    {
+        animator.SetBool("isWalking", false);
+        animator.SetBool("isAttack", false);
+        animator.SetBool("isStop", true);
+    }
+    public void SetWalking()
+    {
+        animator.SetBool("isWalking", true);
+        animator.SetBool("isAttack", false);
+        animator.SetBool("isStop", false);
+    }
+    public void SetAttacking()
+    {
+        animator.SetBool("isAttack", true);
+        animator.SetBool("isWalking", false);
+        animator.SetBool("isStop", false);
     }
 }

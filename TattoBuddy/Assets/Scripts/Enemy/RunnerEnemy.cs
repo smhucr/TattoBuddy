@@ -17,7 +17,16 @@ public class RunnerEnemy : MainEnemy
     }
     public override void Attack()
     {
-        animator.SetBool("isAttack", true);
-        animator.SetBool("isWalking", false);
+        SetAttacking();
+        StartCoroutine(AttackTimer());
+    }
+
+    private IEnumerator AttackTimer()
+    {
+        yield return new WaitForSeconds(0.4f);
+        isAttackable = false;
+        SetIdle();
+        yield return new WaitForSeconds(attackTime);
+        isAttackable = true;
     }
 }

@@ -5,9 +5,9 @@ using UnityEngine;
 public class RangerEnemy : MainEnemy
 {
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -18,7 +18,19 @@ public class RangerEnemy : MainEnemy
 
     public override void Attack()
     {
-        animator.SetBool("isAttack",true);
-        animator.SetBool("isWalking", false);
+        MainPlayer cachedPlayer = player.GetComponent<MainPlayer>();
+        cachedPlayer.health -= damageValue;
+        cachedPlayer.health = Mathf.Clamp(cachedPlayer.health, 0, 500);
+        SetAttacking();
+        StartCoroutine(AttackTimer());
+    }
+
+    private IEnumerator AttackTimer()
+    {
+        yield return new WaitForSeconds(0.45f);
+        isAttackable = false;
+        SetIdle();
+        yield return new WaitForSeconds(attackTime);
+        isAttackable = true;
     }
 }

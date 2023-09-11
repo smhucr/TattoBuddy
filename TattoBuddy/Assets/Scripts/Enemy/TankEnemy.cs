@@ -18,7 +18,16 @@ public class TankEnemy : MainEnemy
 
     public override void Attack()
     {
-        animator.SetBool("isAttack", true);
-        animator.SetBool("isWalking", false);
+        SetAttacking();
+        StartCoroutine(AttackTimer());
+    }
+
+    private IEnumerator AttackTimer()
+    {
+        yield return new WaitForSeconds(0.45f);
+        isAttackable = false;
+        SetIdle();
+        yield return new WaitForSeconds(attackTime);
+        isAttackable = true;
     }
 }
