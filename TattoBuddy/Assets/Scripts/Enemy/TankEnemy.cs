@@ -16,8 +16,9 @@ public class TankEnemy : MainEnemy
         Move();
     }
 
-    public /*override*/ void Attack()
+    public override void Attack()
     {
-        print("sa ben tank");
+        animator.SetBool("isAttack", true);
+        animator.SetBool("isWalking", false);
     }
 }

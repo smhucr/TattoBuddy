@@ -15,4 +15,9 @@ public class RunnerEnemy : MainEnemy
     {
         Move();
     }
+    public override void Attack()
+    {
+        animator.SetBool("isAttack", true);
+        animator.SetBool("isWalking", false);
+    }
 }

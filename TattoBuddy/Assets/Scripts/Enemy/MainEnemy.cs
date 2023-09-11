@@ -20,10 +20,14 @@ public abstract class MainEnemy : MonoBehaviour
     protected float follow_distance;
     [SerializeField]
     protected float attackTime;
+    [Header("EnemyComponent")]
+    [SerializeField]
+    protected Animator animator;
 
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        animator = GetComponent<Animator>();
     }
     public void Move()
     {
@@ -31,6 +35,8 @@ public abstract class MainEnemy : MonoBehaviour
         if (Vector3.Distance(transform.position, player.position) >= follow_distance)
         {
             transform.position = Vector3.MoveTowards(transform.position, player.position, Time.deltaTime * moveSpeed);
+            animator.SetBool("isWalking", true);
+            animator.SetBool("isAttack", false);
         }
         else
         {
@@ -50,10 +56,7 @@ public abstract class MainEnemy : MonoBehaviour
         }
 
     }
-    public /*abstract*/ void Attack()
-    {
-
-    }
+    public abstract void Attack();
     public /*abstract*/ void TakeDamage(int damageAmount)
     {
 
