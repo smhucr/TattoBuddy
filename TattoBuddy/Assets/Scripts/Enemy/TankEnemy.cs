@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class TankEnemy : MainEnemy
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        GameManager.instance.tankEnemyDamageValue = damageValue;
     }
 
-    // Update is called once per frame
     private void FixedUpdate()
     {
         Move();
@@ -25,6 +23,8 @@ public class TankEnemy : MainEnemy
     private IEnumerator AttackTimer()
     {
         yield return new WaitForSeconds(0.45f);
+        if (isAttackable)
+            player.GetComponent<MainPlayer>().health -= GameManager.instance.tankEnemyDamageValue; // -= damageValue olabilir
         isAttackable = false;
         SetIdle();
         yield return new WaitForSeconds(attackTime);

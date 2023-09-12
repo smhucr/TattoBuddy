@@ -17,12 +17,21 @@ public abstract class MainPlayer : MonoBehaviour
     public int damageMultiplier;
     [SerializeField]
     public int dodgeRate;
-    
 
-
-    public void TakeDamage()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-
     }
 
+    public void TakeDamage(float damageValue)
+    {
+        health -= damageValue;
+        health = Mathf.Clamp(health, 0, 500);
+        if (health == 0)
+            Die();
+    }
+
+    public void Die()
+    {
+        print("I'm Dead Bruah");
+    }
 }

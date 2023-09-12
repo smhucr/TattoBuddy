@@ -6,7 +6,7 @@ public class KingPlayer : MainPlayer
 {
     private void Awake()
     {
-        this.health = 5;
+        this.health = 25;
         this.moveSpeed = 100;
         this.shield = 5;
         this.healthRegenerate = 0;
