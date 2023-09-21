@@ -11,7 +11,11 @@
 **Düşmanlar:** Oyuncunun karşısına rastgele yerlerde spawn olan canavarlar çıkar. Canavarlar, farklı türlerde ve yeteneklerde olabilirler.
 
 **Silahlar:** Oyuncu, karakterine takılabilen dört farklı türde silah kullanabilir. Bu silahlar iki yakın dövüş silahı ve iki uzak dövüş silahı içerir.
-
+ ### Silahlar
+    -Butterfly Knife (Fast) 
+    -Machete Knife (Slow)
+    -Revolver Pistol (Slow)
+    -CZ-75 semi-auto pistol (Fast)
 **Hayatta Kalma Süresi:** Her bölüm için oyuncunun hayatta kalması gereken süre 1 dakikadır. Eğer hayatta kalırsa, ödül olarak 3 kart kazanır.
 
 **Kartlar:** Kartlar, oyuncunun kendisini veya silahlarını geliştirmesi için kullanılabilir. Kartlar, oyuncunun canavarlardan düşen para ile satın alınabilir.
