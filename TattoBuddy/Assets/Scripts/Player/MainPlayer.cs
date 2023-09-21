@@ -26,7 +26,7 @@ public abstract class MainPlayer : MonoBehaviour
     {
         health -= damageValue;
         health = Mathf.Clamp(health, 0, 500);
-        if (health == 0)
+        if (health <= 0)
             Die();
     }
 
