@@ -7,6 +7,7 @@ public class Shooter : MonoBehaviour
     public float targettingInterval = 0.2f; // Hedef alma sýklýðý
     public float shootingInterval = 1.0f; // Ateþ etme sýklýðý
     public float detectionRange = 50.0f; // Düþmanlarý algýlama menzili
+    public float maxRotationAngle = 180.0f; // Silahýn maksimum dönme açýsý
     public Transform currentTarget; // Þu anki hedef
 
     void Start()
@@ -60,9 +61,19 @@ public class Shooter : MonoBehaviour
         if (currentTarget != null)
         {
             Vector2 direction = currentTarget.position - transform.position;
+            print(direction);
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+            if (direction.x < 0)
+            {
+                float reverseAngle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
+                transform.localRotation = Quaternion.Euler(new Vector3(0, 180, reverseAngle + 90));
+            }
+            else
+                transform.localRotation = Quaternion.Euler(new Vector3(0, 0, angle));
+
         }
+        else
+            transform.localRotation = Quaternion.Euler(Vector3.zero);
     }
 
     void ShootAtTarget()
