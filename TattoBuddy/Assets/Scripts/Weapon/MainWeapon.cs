@@ -4,13 +4,26 @@ using UnityEngine;
 
 public abstract class MainWeapon : MonoBehaviour
 {
+    [Header("WeaponFeature")]
+    [SerializeField]
     protected float targettingInterval = 0.2f; // Hedef alma sýklýðý
+    [SerializeField]
     protected float shootingInterval = 1.0f; // Ateþ etme sýklýðý
+    [SerializeField]
     protected float detectionRange = 50.0f; // Düþmanlarý algýlama menzili
+    [SerializeField]
+    protected float attackRange = 20.0f; // Düþmanlara saldýrma menzili
+    [SerializeField]
     protected int damage = 1;
+    [Header("Enemy")]
+    [SerializeField]
     protected Transform currentTarget; // Þu anki hedef
+    [Header("WeaponComponents")]
+    [SerializeField]
+    protected Animator animator;
 
     public ObjectsPool objectPool = null;
+    public abstract void ShootAtTarget();
     void Start()
     {
         objectPool = GameObject.FindGameObjectWithTag("ObjectPool").GetComponent<ObjectsPool>();
@@ -63,7 +76,6 @@ public abstract class MainWeapon : MonoBehaviour
         if (currentTarget != null)
         {
             Vector2 direction = currentTarget.position - transform.position;
-            print(direction);
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             if (direction.x < 0)
             {
@@ -78,18 +90,4 @@ public abstract class MainWeapon : MonoBehaviour
             transform.localRotation = Quaternion.Euler(Vector3.zero);
     }
 
-    void ShootAtTarget()
-    {
-        if (currentTarget != null)
-        {
-            var obj = objectPool.GetPooledObject(1);
-            obj.transform.position = transform.position;
-            obj.transform.rotation = transform.rotation;
-            Vector2 shootingDirection = (currentTarget.position - transform.position).normalized;
-            obj.GetComponent<GunBullet>().MoveBall(shootingDirection);
-            // Fire Codes.
-            print(obj);
-            Debug.Log("Shooting at: " + currentTarget.name);
-        }
-    }
 }

@@ -15,4 +15,9 @@ public class SlowMeleeWeapon : MainWeapon
     {
         
     }
+
+    public override void ShootAtTarget()
+    {
+        throw new System.NotImplementedException();
+    }
 }

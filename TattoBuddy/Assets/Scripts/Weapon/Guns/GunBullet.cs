@@ -20,7 +20,7 @@ public class GunBullet : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
-    public void MoveBall(Vector2 direction)
+    public void MoveBullet(Vector2 direction)
     {
         rbBall.velocity = speed * direction;
     }
