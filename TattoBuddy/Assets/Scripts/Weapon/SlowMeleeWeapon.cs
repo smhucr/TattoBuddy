@@ -4,20 +4,17 @@ using UnityEngine;
 
 public class SlowMeleeWeapon : MainWeapon
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        shootingInterval = 0.7f;
+        detectionRange = 6.0f;
+        attackRange = 4.0f;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public override void ShootAtTarget()
     {
+        
         throw new System.NotImplementedException();
     }
 }

@@ -54,7 +54,7 @@ public abstract class MainWeapon : MonoBehaviour
     {
         Vector2 cachedPosition = new Vector2(transform.position.x, transform.position.y);
         Collider2D[] hits = Physics2D.OverlapCircleAll(cachedPosition, detectionRange);
-
+        
         float closestDistance = Mathf.Infinity;
         Transform closestEnemy = null;
 
