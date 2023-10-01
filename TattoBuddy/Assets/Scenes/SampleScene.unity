@@ -388,6 +388,8 @@ MonoBehaviour:
   pools:
   - objectPrefab: {fileID: 7745039851253963068, guid: e982eae9d31c8f243a49b87f2e8e8501, type: 3}
     poolSize: 10
+  - objectPrefab: {fileID: 4508180702212912542, guid: 965887abe16ef6a4c8bcec7979daf4c2, type: 3}
+    poolSize: 10
 --- !u!1 &242492178
 GameObject:
   m_ObjectHideFlags: 0
@@ -21936,7 +21938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1703632046}
   - component: {fileID: 1703632045}
-  - component: {fileID: 1703632047}
+  - component: {fileID: 1703632049}
   - component: {fileID: 1703632048}
   m_Layer: 0
   m_Name: Square
@@ -22012,23 +22014,6 @@ Transform:
   m_Father: {fileID: 1393557428}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1703632047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1703632044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 858183b2907edb04d8f64ca05a7e1064, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targettingInterval: 0.05
-  shootingInterval: 1
-  detectionRange: 2.1
-  maxRotationAngle: 180
-  currentTarget: {fileID: 0}
 --- !u!95 &1703632048
 Animator:
   serializedVersion: 5
@@ -22050,6 +22035,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1703632049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703632044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cce2c53fd29bc14aa2815afed644e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPool: {fileID: 0}
 --- !u!1 &1849017289
 GameObject:
   m_ObjectHideFlags: 0

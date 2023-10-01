@@ -16,8 +16,8 @@ public class LaserBall : MonoBehaviour
     }
 
     private void Start()
-    {   
-        transform.DORotate(new Vector3(0f, 0f, 360f), 0.5f , RotateMode.FastBeyond360).SetLoops(-1, LoopType.Restart).SetEase(Ease.Linear);
+    {
+        transform.DORotate(new Vector3(0f, 0f, 360f), 0.5f, RotateMode.FastBeyond360).SetLoops(-1, LoopType.Restart).SetEase(Ease.Linear);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -31,11 +31,11 @@ public class LaserBall : MonoBehaviour
     {
         //BulletAcceleration  
         Vector2 shootingDirection = (playerPos.position - transform.position).normalized;
-        rbBall.velocity = shootingDirection * speed;
+        rbBall.velocity = speed * shootingDirection;
     }
 
     private void OnDisable()
     {
-        rbBall.velocity = new Vector2(0,0);
+        rbBall.velocity = new Vector2(0, 0);
     }
 }
